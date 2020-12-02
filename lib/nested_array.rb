@@ -42,6 +42,6 @@ end
   # Return the updated matrix
 
 def matrix_update(matrix, row, column, new_value)
-  matrix [1][2] = new_value
+  assembled_matrix [1][2] = new_value
   return matrix 
 end
